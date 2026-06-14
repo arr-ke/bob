@@ -1,0 +1,27 @@
+bobデータベース
+
+まず、UTF-8のbobデータベースを作ってください。
+次に下のSQLソース文をコピー＆ペーストをしてでbobデータベースにbob1テーブルとデータを登録してください。
+
+
+
+CREATE TABLE bob1 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name1 varchar(100) NOT NULL,
+    name2 varchar(100) NOT NULL,
+    name3 varchar(100) NOT NULL,
+    name4 varchar(100) NOT NULL,
+    name5 varchar(100) NOT NULL
+);
+
+
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (1, 'ゴルフ', 'インターネット', 'アップル', 'ペンケース', 'イングリッシュ');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (2, 'コーヒー', 'ヨーグルト', 'ラーメン', 'イエス・キリスト', 'ジャパン');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (3, 'ライオン', 'アメリカ', 'ベースボール', 'ロック', 'ブイチューバー');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (4, 'サッカー', 'パソコン', 'ウィンター', 'ムーン', 'ヒストリー');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (5, 'ヒューマン', 'ポップ', 'ブルベリー', 'リュック', 'エレファント');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (6, 'ゲートボール', 'インターネット', 'サッカー', 'スナイパー', 'ティーチャー');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (7, 'スカンプー', 'ビーフ', 'ジュース', 'バレーボール', 'ウィンター');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (8, 'ボウリング', 'バッター', 'スーツ', 'バースデー', 'ユーチューバー');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES (9, 'ドラゴン', 'ピッチャー', 'サンダー', 'スマートフォン', 'サイエンス');
+INSERT INTO bob1 (`id`, `name1`, `name2`, `name3`, `name4`, `name5`) VALUES  (10, 'イギリス', 'ピザ', 'アース', 'ルビー', 'ダイヤモンド');

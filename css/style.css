@@ -1,0 +1,58 @@
+body {
+    background-color: plum;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* 行末 */
+ol li {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/* submit系 */
+.submit {
+    font-size: 30px;
+}
+
+.submit1 {
+    margin-top: -120px;
+}
+
+.submit2 {
+    margin-top: 0px;
+}
+
+/* input text */
+.text {
+    font-size: 30px;
+}
+
+/* input select */
+.select {
+    font-size: 30px;
+}
+
+/* かたこと */
+.red {
+    color: red;
+}
+
+/* ジェスチャー */
+.blue {
+    color: blue;
+}
